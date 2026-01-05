@@ -102,7 +102,7 @@ nav a.active {
 }
 
 
-/* -------------- */
+--------------
 .contact-grid {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
@@ -706,13 +706,17 @@ main {
     box-shadow: 0 10px 35px rgba(0,0,0,0.15);
 }
 
-.pet-image {
-    background: linear-gradient(135deg, #a8e6cf 0%, #56ccf2 100%);
+.pet-image0 {
+    background: linear-gradient(135deg, #0fac72 0%, #56ccf2 100%);
+    background-image: url(./imgs/perro1.jpeg);
     height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .pet-emoji {
