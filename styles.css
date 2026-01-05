@@ -175,6 +175,24 @@ nav a.active {
     background: #58a6f4;
     color: rgb(255, 255, 255);
 }
+/* ===== CTA SECTION ===== */
+.cta {
+    text-align: center;
+    padding: 4rem 0;
+    color: rgb(244, 224, 224);
+    border-radius: 10px;
+    margin: 3rem 0;
+}
+
+.cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.cta p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
 
 /* ===== FORMULARIO ===== */
 .contact-form-container {
